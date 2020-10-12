@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Factory_Example_Abstraction</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="IAnimal.cs" />
+    <Compile Include="IAnimalFactory.cs" />
+  </ItemGroup>
+
+</Project>
