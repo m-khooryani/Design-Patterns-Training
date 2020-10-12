@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <RootNamespace>Factory_Example_Implementation</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="AnimalFactory.cs" />
+    <Compile Include="Dog.cs" />
+    <Compile Include="Tiger.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Abstract Factory\Abstract Factory Abstractions\Abstract Factory Abstractions.csproj" />
+    <ProjectReference Include="..\Factory Example Abstraction\Factory Example Abstraction.csproj" />
+  </ItemGroup>
+
+</Project>
