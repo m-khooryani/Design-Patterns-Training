@@ -2,7 +2,7 @@
 
 namespace Observer_Example
 {
-    class AverageScoreDisplay : Observer
+    class AverageScoreDisplay : IObserver
     {
         private double runRate;
         private int predictedScore;

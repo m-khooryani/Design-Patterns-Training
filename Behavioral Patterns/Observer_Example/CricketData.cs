@@ -2,22 +2,22 @@
 
 namespace Observer_Example
 {
-    class CricketData : Subject
+    class CricketData : ISubject
     {
         int runs;
         int wickets;
         double overs;
-        List<Observer> observerList;
+        List<IObserver> observerList;
 
 
         public CricketData()
         {
-            observerList = new List<Observer>();
+            observerList = new List<IObserver>();
         }
 
-        public void RegisterObserver(Observer o) => observerList.Add(o);
+        public void RegisterObserver(IObserver o) => observerList.Add(o);
 
-        public void UnregisterObserver(Observer o)
+        public void UnregisterObserver(IObserver o)
         {
             observerList.Remove(o);
         }

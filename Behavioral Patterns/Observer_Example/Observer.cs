@@ -1,6 +1,6 @@
 ﻿namespace Observer_Example
 {
-    interface Observer
+    interface IObserver
     {
         void Update(int runs, int wickets,
                           double overs);

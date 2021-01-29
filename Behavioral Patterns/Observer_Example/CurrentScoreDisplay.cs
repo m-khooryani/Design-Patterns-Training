@@ -2,7 +2,7 @@
 
 namespace Observer_Example
 {
-    class CurrentScoreDisplay : Observer
+    class CurrentScoreDisplay : IObserver
     {
         private int runs, wickets;
         private double overs;
